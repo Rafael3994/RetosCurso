@@ -1,0 +1,33 @@
+body {
+    background-image: url('/Reto1/img/destello.jpg');
+    color: whitesmoke;
+}
+
+.container {
+    text-align: center;
+    color: gray;
+}
+
+#form {
+    text-align:start;
+    background-color: whitesmoke;
+}
+
+#input {
+    background-color: gray;
+}
+
+#btnLogin {
+    width: 100%;
+}
+
+.btn-outline-dark {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: blanchedalmond;
+    border: blanchedalmond 1px solid;
+    margin-right: 1em;
+}
+
+.bi {
+    margin-right: 1em;
+}

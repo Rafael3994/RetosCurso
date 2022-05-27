@@ -1,0 +1,53 @@
+
+h1 {
+    color: cornflowerblue;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+
+#inputs {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+
+#inputs > p:nth-child(2) {
+    margin-left: auto;
+}
+
+#tabla {
+    margin-left: 10%;
+    width: 80%;
+}
+.edit > .material-icons {
+    background-color: green;
+    color: white;
+}
+
+.delete > .material-icons {
+    background-color: tomato;
+    color: white;
+}
+
+.view > .material-icons {
+    background-color: blue;
+    color: white;
+}
+
+#inputs2 {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+
+#inputs2 > p:nth-child(2) {
+    margin-left: auto;
+}
+
+#inputs3 {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
