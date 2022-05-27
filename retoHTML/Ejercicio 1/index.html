@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <h1>Texto para el ejercicio</h1>
+    <h2>Secciones y líneas generales de un documento HTML<span>5</span></h2>
+
+    <p>
+        La especificación HTML<span>5</span> trae muchos nuevos elementos a los desarrolladores web,<br>
+        permitiéndoles describir la estructura de un docuento web con semántica estandarizada. Esta este<br>
+        documento describe estos elementos y cómo usarlos para definir el perfil de cualquier<br>
+        documento.
+    </p>
+
+    <h2>Problemas resueltos por HTML<span>5</span></h2>
+
+    <p>
+        La definición de la estructura de un documento en HTML<span>4</span> y su algoritmo de perfilado es muy<br>
+        tosco y genera numerosos problemas:
+    </p>
+
+    <div id="lista">
+        <ol>
+            <li>
+                HTML<span>5</span> quita la necesidad de elementos &lt;div&gt; para definir secciones semánticas sin definir<!--<br> -->
+                valores especifícos para los atributos class, intoduciondo un nuevo elemento, &lt;section&gt;, el<!--<br> -->
+                elemento de sección HTML. 
+            </li>
+            <br>
+            <li>
+                Mezclar varios documentos es difíl: la inclusión de un sub-documento en un documento<!--<br> -->
+                principal. Esto se resuelve en HTML<span>5</span> con los elementos de seccionado (&lt;article&gt;, &lt;section&gt;,<!--<br> -->
+                &lt;nav&gt;, &lt;aside&gt;) son siempre subsecciones de su sección ancestra más cercana.
+            </li>
+            <br>
+            <li>
+                HTML<span>5</span> introduce el elemento &lt;hgroup&gt; que oculta todos los elementos de cabecera excepto<!--<br> -->
+                el primero de más alto rango (por ejemplo &lt;hgroup&gt;&lt;h1&gt;Justine&lt;/h1&gt;&lt;h2&gt;Les Malheurs de<!--<br> -->
+                la Vartu&lt;/h2&gt;&lt;/hgroup&gt; crea el perfil 1. Justine).
+            </li>
+        </ol>
+    </div>
+
+
+</body>
+</html>
