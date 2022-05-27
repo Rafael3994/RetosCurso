@@ -1,0 +1,100 @@
+body {
+    background-image: url(/Ejercicio_17/img/ac.jpg);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    border: solid 1px black;
+    background-color: white;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#divA {
+    background-image: url(/Ejercicio_17/img/back_mantel.jpg);
+}
+#divB {
+    position: relative;
+    background-color: transparent;
+}
+
+#divB2 {
+    background-image: url(/Ejercicio_17/img/back_mantel.jpg);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 100px;
+    width: 100px;
+}
+
+#divC {   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/Ejercicio_17/img/back_mantel.jpg);
+}
+
+#divD {   
+    background-color: rgb(226, 238, 118);
+    position: relative;
+}
+
+#divD2 {   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/Ejercicio_17/img/back_mantel.jpg);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 100px;
+    width: 100px;
+}
+
+#divE {   
+    background-image: url(/Ejercicio_17/img/dh.jpg);
+    background-size: 100%;
+}
+
+#divF {   
+    background-image: url(/Ejercicio_17/img/dh.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 78%;
+    background-repeat: no-repeat;
+}
+
+#divG {   
+    background-image: url(/Ejercicio_17/img/dh_2.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+}
+
+#divH {   
+    background-image: url(/Ejercicio_17/img/dh_3.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 55% 100%;
+    background-repeat: no-repeat;
+}
+
+#divI {   
+    background: linear-gradient(to right, rgb(201, 233, 86),rgb(59, 68, 27));
+}
+
+#divJ {   
+    background: linear-gradient(to bottom, rgba(218, 152, 67, 0.87), rgba(218, 152, 67, 0.87), brown);
+}
+
+#divK {   
+    background: linear-gradient(to bottom, white, rgb(182, 219, 182), rgb(182, 219, 182), rgb(75, 117, 75));
+}
+
+#divL {   
+    background: linear-gradient(to bottom, transparent, transparent,rgb(201, 233, 86), rgb(201, 233, 86));
+}

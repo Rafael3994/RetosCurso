@@ -1,0 +1,22 @@
+table {
+    border:cornflowerblue 1px solid;
+    width: 350px;
+}
+
+#titulo {
+    text-align: center;
+    color: aquamarine;
+    background-color: rgb(36, 63, 54);
+}
+
+tr {
+    background-color: aquamarine;
+}
+
+tr:last-child {
+    background-color: rgb(76, 151, 126);
+}
+
+.centrar {
+    text-align: center;
+}

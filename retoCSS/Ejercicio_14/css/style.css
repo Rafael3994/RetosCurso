@@ -1,0 +1,26 @@
+#fondo {
+    background-image: url(/Ejercicio_14/img/pinguinos.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 1000px;
+    height: 768px;
+    position: relative;
+}
+
+table {
+    position: absolute;
+    top:35%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    background-color: azure;
+    text-align: center;
+}
+
+#encabezado {
+    font-weight: bold;
+}
+
+#fila1 {
+    background-color: yellowgreen;
+}

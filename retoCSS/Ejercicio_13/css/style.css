@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    font-weight: bold;
+}
+
+#celda1 {
+    background-color: aquamarine;
+}
+
+#celda2 {
+    background-color: cyan;
+}
+
+#celda6 {
+    background-color: violet;
+    text-align: end;
+    vertical-align: bottom;
+}
+
+.colorRed {
+    color: red;
+}
+
+.centrar {
+    text-align: center;
+}
